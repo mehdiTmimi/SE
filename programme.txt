@@ -1,7 +1,7 @@
 ------------------------Programmation mobile et web------------------------
-Programme:
+ I- Programme:
 
-- Introduction sur la programmation orienté objet et JAVA.
+- Introduction sur la programmation orienté objet et JAVA. (matiere)
 - Introduction à la plateforme Android
 - Les activités
 - IHM et composants graphiques sous la plateforme Android
@@ -9,6 +9,37 @@ Programme:
 - Gestion des menus dans une application Android
 - Utilisation de Sockets avec Android
 - Introduction sur la programmation Web
-- HTML et CSS
-- PHP et JAVA Script
+- HTML et CSS (matiere)
+- PHP et JAVA Script (matiere)
 - Application serveur (web)/client (Android).
+
+II- volume horaire:
+4 matieres : java , android, web (html css js) et PHP
+20 heures = cours
+20 heures x 2 = TP
+
+III- Notre programme:
+- web : HTML CSS et js (2 seances de cours et 2 tps) = 4 heures
+objectifs : - creation d'un site web statique (moderne)
+
+- Java (1/2 seance pour se familiatiser, 1/2 introduction au POO) + 
+(1 seance pour le POO detaillé) = 4heures
+
+-android: 8heures. creation d une app -> la publication 
+-Rest API: 4heures
+
+--> approche par projet.
+
+IV- outils technologiques:
+
+
+- web : navigateur (google chrome), editeur: vscode https://code.visualstudio.com
+- java: IDE: JDK https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html 
+        + eclipse https://www.eclipse.org/downloads/
+
+- android : android studio 
+https://developer.android.com/studio?gclid=Cj0KCQjwit_8BRCoARIsAIx3Rj4ZqXMJo0FT374bfKt0ckx6XJQpYBCVHAZktmFcJCobzOjKLTkJ4acaAjh3EALw_wcB&gclsrc=aw.ds#downloads
+
+-Rest API: https://www.postman.com/
+
+-global : git et github
