@@ -1,0 +1,14 @@
+------------------------Programmation mobile et web------------------------
+Programme:
+
+- Introduction sur la programmation orienté objet et JAVA.
+- Introduction à la plateforme Android
+- Les activités
+- IHM et composants graphiques sous la plateforme Android
+- Les contrôles et la gestion des événements
+- Gestion des menus dans une application Android
+- Utilisation de Sockets avec Android
+- Introduction sur la programmation Web
+- HTML et CSS
+- PHP et JAVA Script
+- Application serveur (web)/client (Android).
