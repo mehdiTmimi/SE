@@ -1,0 +1,2 @@
+HTML5 : + input riche( color, date, email )
++ des valises de semantique (header, footer,nav, main, section, article, aside) => pour remplacer les div et span

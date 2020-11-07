@@ -1,0 +1,12 @@
+web: html + css et js
+HTML = un langage de balisage ( <balise> </balise>)
+CSS = propriete : valeur -> color : blue
+Js= langage de programmation ordinaire (script)
+
+
+
+cas pratique:
+question : comment creer une page web ? => un ficher avec l'extension .html 
+systeme d'arbre: pere et fils
+- chaque element(balise) un seul parent.
+- chque element peut avoir une infinite de fils.

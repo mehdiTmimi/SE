@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">    <!-- racine -->
+<head>
+      <!-- meta data, titre, links(liaisons externe), css et js -->
+      <!--titre de la page-->
+      <title>SE - seance 2</title>
+       <!--link css-->
+       <link rel="stylesheet" href="css/main.css">
+       <!-- link js-->
+       <script src="js/main.js"></script>
+    
+       <!-- inclure directement css-->
+       <style>
+            /* on est dans un contexte css */
+           
+       </style>
+       <!-- inclure directement js-->
+       <script>
+      // contexte js
+          // commentaire une seule ligne
+          /* commentaire en multi 
+           ligne */
+       </script>
+       <!-- icon -->
+       <link rel="shortcut icon" href="">
+</head>
+<body>
+   <!-- tout ce qui est affiché dans le navigateur : c'est ici 99% du temps-->
+   <!--regles:
+      supprimer tous les retours à la ligne
+      toutes espaces qui se suivenent -> sont remplacées par une seule
+      <balise/> => elle n a pas besoin d'une balise de fermeture (orpheline)
+      NB: dans les choix des balises , ON S'EN FOU CARREMENT DE STYLE. -> 
+      la semantique ce qui nous interesse
+
+      chaque balise(element): un nom + une infinite attributs
+      <balise attribut1="valeur1" attribut2="valeur2" ....... >
+      -->
+      <div>DIV</div>
+      <span>SPAN</span>
+      <h1> image global</h1>
+    <b><u>hello</u></b> <!-- tres deconseillé-->
+      <p>Lorem ipsum dolor sit <div style="color:blue;text-decoration: underline;">amet</div> consectetur adipisicing elit. Minus, 
+            quaerat? Debitis totam error sit ipsum cumque ea quidem facere 
+            tenetur aspernatur a enim nobis consequatur sapiente voluptates animi, quo nihil! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor rerum neque recusandae a illo voluptatibus eos consequatur ab quaerat dolores natus sit, harum optio dolorum esse quas magni accusamus architecto!</p>
+  <a href="https://www.google.com/" target="_blank">vers google</a>
+      <img src="Global_view.png" width="100px" />
+      <!-- ul : unordered list-->
+      <!-- ol : ordered list-->
+      <ul>
+           <!-- li: list item--> 
+           <li>home</li>
+           <li>products</li>
+           <li>contact</li>
+      </ul>
+      <!--TABLEAU-->
+      <!-- cas d'utlisation: affichage des donnees, formulaire-->
+      <table border="1"><!-- border doit etre introduite dans le css et non avec html-->
+            <thead>
+                  <tr><!-- une ligne-->
+                        <th><!-- colone-->
+                              nom
+                        </th>
+                        <th><!-- colone-->
+                              prenom
+                        </th>
+                        <th><!-- colone-->
+                              datenaissance
+                        </th>
+                  </tr>
+            </thead>
+            <tbody>
+                  <tr><!-- une ligne-->
+                        <td><!-- colone-->
+                              tmimi
+                        </td>
+                        <td><!-- colone-->
+                              mehdi
+                        </td>
+                  </tr>
+                  <tr><!-- une ligne-->
+                        <td><!-- colone-->
+                              lahjouji
+                        </td>
+                        <td><!-- colone-->
+                              asmae
+                        </td>
+                  </tr>
+            </tbody>
+            <tfoot>
+                  <tr><!-- une ligne-->
+                        <th><!-- colone-->
+                              nom
+                        </th>
+                        <th><!-- colone-->
+                              prenom
+                        </th>
+                  </tr>
+            </tfoot>
+      </table>
+      <!-- formulaire : form, input(text,radio,checkbox), button-->
+      <!-- -->
+      <h2>formulaire</h2>
+      <form>
+            <table>
+                  <tbody>
+                        <tr>
+                              <td>
+                                    nom : 
+                              </td>
+                              <td>
+                                    <input type="text"/>
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    date naissance : 
+                              </td>
+                              <td>
+                                    <input type="date"/>
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    poids : 
+                              </td>
+                              <td>
+                                    <input type="number"/>
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    couleur cheveux : 
+                              </td>
+                              <td>
+                                    <input type="color"/>
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    email : 
+                              </td>
+                              <td>
+                                    <input type="email"/>
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    password : 
+                              </td>
+                              <td>
+                                    <input type="password"/>
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    bio : 
+                              </td>
+                              <td>
+                                    <textarea>
+
+                                    </textarea>
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    sexe : 
+                              </td>
+                              <td>
+                                          
+                                  male  <input name="x" type="radio"/>
+                                    female  <input name="x" type="radio"/>
+                                         
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    specialite : 
+                              </td>
+                              <td>
+                                    java <input name="x" type="checkbox"/>
+                                          
+                                     c ++ <input name="x" type="checkbox">
+                                        
+                              </td> 
+                        </tr>
+                        <tr>
+                              <td>
+                                    <input type="reset">
+                              </td>
+                              <td>
+                                    <input type="submit"/>
+                              </td> 
+                        </tr>
+                  </tbody>
+            </table>
+      </form>
+</body>
+</html>
