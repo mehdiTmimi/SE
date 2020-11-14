@@ -1,0 +1,17 @@
+  /*balise (redifinition de style)*/
+  a{
+    color:red;
+}
+/* class
+
+ */
+ .X{
+    color:white;
+    /* priorite pour le inline css*/
+    background-color:blue;
+}
+/* id */
+#X{
+   
+    background-color:red;
+}

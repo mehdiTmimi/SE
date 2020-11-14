@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0px;
+}
+header{
+    background-color: black;
+    height: 40px;
+}
+header>h1{
+    display: unset;
+    color:white;
+    margin: 10px;
+}
+section h1{
+    color:red;
+}
+section h1:active{
+    color:blue;
+}
+nav{
+    float: right;
+}
+
+ol{
+    list-style-type: none;
+    margin-top:8px;
+}
+li{
+    display: inline;
+    padding: 5px 20px;
+    color: white;
+    transition: 1.2s;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+    text-transform: capitalize;
+}
+
+/*hover : survol*/
+li:hover{
+   background-color: white;
+   color:black;
+   transition: 1.2s;
+   margin-right:10px;
+}
+
+.accueil{
+    font-size: 70px;
+    margin-left: 30px;
+    color: white;
+}
+.sectionAccueil{
+    padding: 35vh 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: calc(100vh - 40px);
+    background-image: url(../images/accueil.jpg);
+    background-size: auto calc(100vh - 40px);
+    background-repeat: no-repeat;
+}
+
+/*
+50vh= taille de fenetre *50/100 (px)
+50%= taille de son pere *50/100 (px)
+*/

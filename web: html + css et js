@@ -8,5 +8,5 @@ Js= langage de programmation ordinaire (script)
 cas pratique:
 question : comment creer une page web ? => un ficher avec l'extension .html 
 systeme d'arbre: pere et fils
-- chaque element(balise) un seul parent.
-- chque element peut avoir une infinite de fils.
+- chaque element(balise) a un seul parent.
+- chaque element peut avoir une infinite de fils.
